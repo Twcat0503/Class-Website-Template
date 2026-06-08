@@ -1,0 +1,37 @@
+{
+  "name": "class-website-template",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "A clean, customizable class website template built with Next.js, Tailwind CSS v4, and TypeScript",
+  "homepage": "https://github.com/your-username/class-website-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/class-website-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/class-website-template/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "pages:build": "npx @cloudflare/next-on-pages@latest build"
+  },
+  "dependencies": {
+    "next": "16.0.10",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

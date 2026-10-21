@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a reproducible rendering or behavior issue. / 回報可重現的顯示或行為問題
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Please do not include real student names, photos, or private contact
+        details in screenshots or reproductions. For suspected security issues,
+        report privately instead — see SECURITY.md.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed and expected behavior / 現況與預期
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 重現步驟
+      placeholder: |
+        1. Run `npm run dev`
+        2. Open /showcase on a mobile width
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 環境
+      description: OS, browser, `node -v`, `npm -v`, and the template version or commit you are running.
+    validations:
+      required: true
+  - type: textarea
+    id: customization
+    attributes:
+      label: Customization applied / 已做的修改
+      description: What did you change from the template defaults (site name, nav items, page content, colors)?

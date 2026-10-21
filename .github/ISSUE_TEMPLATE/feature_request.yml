@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an idea for the template. / 對模板提出建議
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        The template is intentionally minimal and dependency-light. Ideas that
+        add runtime dependencies need a strong case — explain how the feature
+        helps a class website specifically.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested enhancement / 建議內容
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why does this belong in the template? / 為什麼適合放進模板？
+      description: Who benefits, and what is the alternative for classes that do without it?
+    validations:
+      required: true
